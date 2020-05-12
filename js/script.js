@@ -141,9 +141,7 @@ const filterListItems = (clientValue) => {
 
   // The for loop is filtering the search from input field and store to the right varibale. The matched list items to displaying and the other to hidde.
   for (let i = 0; i < allStudents.length; i++) {
-    if (
-      allStudents[i].querySelector("h3").textContent.startsWith(clientValue)
-    ) {
+    if (allStudents[i].querySelector("h3").textContent.includes(clientValue)) {
       matchedItems.push(allStudents[i]);
       allStudents[i].style.display = "";
     } else {
