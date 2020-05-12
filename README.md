@@ -19,5 +19,5 @@
 
 #### The extra challenge
 
-5. Created the search component - created elements, set attributes, manipulating with the DOM, added eventListeners for keyup event and click event. With event storing the value from the client and filtering the list items.
-6. When the events are fired the arrow function expression is called to filter the value that the client is searching and displays on the page.
+1. Created the search component - created elements, set attributes, manipulating with the DOM, added eventListeners for keyup event and click event. With event storing the value from the client and filtering the list items.
+2. When the events are fired the arrow function expression is called to filter the value that the client is searching and displays on the page.
