@@ -11,7 +11,6 @@ Set the global variable itemsPerPage to 10 - will be used to display 10 list ite
 const studentList = document.querySelector(".student-list");
 const allStudents = studentList.children;
 const itemsPerPage = 10;
-console.log(allStudents);
 
 /***
  Function showPage accepts two arguments, (list - array with all list items, page - the current page on which we are currently located).
@@ -81,13 +80,6 @@ const appendPageLinks = (list) => {
     // Append the elements
     li.appendChild(a);
     ul.appendChild(li);
-
-    // Conditional statement is used to show or hidde the pagination links. If we have more than ten list items the pagination links are displayed.
-    if (list.length <= 10) {
-      ul.style.display = "none";
-    } else {
-      ul.style.display = "";
-    }
   }
 };
 
